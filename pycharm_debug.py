@@ -74,6 +74,7 @@ def get_pydevd_location():
     relative_path_variations = (
         ('helpers', 'pydev'),
         ('plugins', 'python', 'helpers', 'pydev'),
+        ('plugins', 'python-ce', 'helpers', 'pydev'),
     )
 
     # Sort in reverse to ensure the results are in descending version order (newest first).
